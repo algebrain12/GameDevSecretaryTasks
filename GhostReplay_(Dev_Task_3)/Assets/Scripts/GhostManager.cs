@@ -10,7 +10,7 @@ public class GhostManager : MonoBehaviour
 
     private List<GameObject> allGhosts = new List<GameObject>();
     
-    private float timePerPos = 0.1f;
+    private float timePerPos = 0.05f;
     private float indicator = 0f;
     
     public Vector3 initialPos;

@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private bool isJumping;
     
     private bool hasResetThisFrame = false;
-    private Rigidbody rb; // Cached reference for performance
+    private Rigidbody rb;
 
     void Start()
     {
